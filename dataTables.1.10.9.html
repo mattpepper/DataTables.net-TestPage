@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="js no-touchevents"><!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>DataTables 1.10.9 test page</title>
+
+    <link href="assets/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/application.min.css">
+    <script src="assets/modernizr.js" type="text/javascript"></script>
+</head>
+
+<body style="padding: 1em 2em; overflow: auto">
+<script type="text/javascript">document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+<header class="service-info">
+    <div class="header-wrapper">
+        <div class="header-global">
+            <h1>DataTables 1.10.9</h1>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+    <div>
+        <article class="content__body grid-wrapper full-width client-list  js-datatable-wrapper">
+            <div class="dataTables_wrapper no-footer">
+                <table class="js-datatable dataTable no-footer"
+                       data-dom="<'dataTables-filter__block'f>tip"
+                       data-order='[3,"asc"]'
+                       data-fixed-Header="true"
+                       data-page-Length="200"
+                       data-auto-Width="false"
+                       data-column-Defs='[{"targets": [0], "width": "40%"},{"targets": [1],"width": "24%"},{"targets": [2,3],"width": "15%"},{"targets": [4], "width": "5%"}]'
+                       data-language='{"info":"","infoFiltered":"","sSearchPlaceholder":"@Messages("clientListPage.table.search.placeholder")","sSearch":"<span class=\"full-width shim text--left\"><strong>@Messages("clientListPage.table.search.label")</strong></span>","pagingType":""}'
+                       >
+                    <thead>
+                    <tr role="row">
+                        <th class="client sorting" tabindex="0" aria-label="">Col 1
+                        </th>
+                        <th data-orderable="false" data-search="false" class="group sorting_disabled" aria-label="">
+                            
+                        </th>
+                        <th class="paye sorting" tabindex="0" aria-label="">Col 3
+                        </th>
+                        <th class="client-ref sorting_asc" tabindex="0" aria-label="">Col 4
+                        </th>
+                        <th data-orderable="false" data-search="false" class="group sorting_disabled" aria-label="">Col 5</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr class="tabular-data__cell--centred" role="row">
+                        <td>
+                            Row 1 / Cell 1
+                        </td>
+                        <td>
+                            Row 1 / Cell 2
+                        </td>
+                        <td>
+                            Row 1 / Cell 3
+                        </td>
+                        <td>
+                            Row 1 / Cell 4
+                        </td>
+                        <td>
+                            Row 1 / Cell 5
+                        </td>
+                    </tr>
+                    <tr class="tabular-data__cell--centred" role="row">
+                        <td>
+                            Row 2 / Cell 1
+                        </td>
+                        <td>
+                            Row 2 / Cell 2
+                        </td>
+                        <td>
+                            Row 2 / Cell 3
+                        </td>
+                        <td>
+                            Row 2 / Cell 4
+                        </td>
+                        <td>
+                            Row 2 / Cell 5
+                        </td>
+                    </tr>
+                    <tr class="tabular-data__cell--centred" role="row">
+                        <td>
+                            Row 3 / Cell 1
+                        </td>
+                        <td>
+                            Row 3 / Cell 2
+                        </td>
+                        <td>
+                            Row 3 / Cell 3
+                        </td>
+                        <td>
+                            Row 3 / Cell 4
+                        </td>
+                        <td>
+                            Row 3 / Cell 5
+                        </td>
+                    </tr>                              
+                    </tbody>
+                </table>
+            </div>
+        </article>
+    </div>
+</main>
+
+
+<footer class="group js-footer" role="contentinfo">
+
+    <div class="footer-wrapper">
+    </div>
+</footer>
+
+
+<script src="assets/DataTables.net.1.10.9/application.min.js" type="text/javascript"></script>
+
+</body>
+</html>
